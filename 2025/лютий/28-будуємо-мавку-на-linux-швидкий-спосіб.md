@@ -4,18 +4,18 @@
 
 ## Встановлення залежностей
 
-Нам будуть потрібні **Clang** та **Git**.
+Вам будуть потрібні **Ціль**, **Clang**, **Git** та деякі *C libs*.
 
-Встановлення **Clang** та **Git** на **Ubuntu Linux**:
+Встановлення залежностей на **Ubuntu Linux**:
 
 ```shell
-sudo apt install git clang
+sudo apt install git clang libreadline-dev liburing-dev libidn2-dev
 ```
 
-Встановлення **Clang** та **Git** на **Arch Linux**:
+Встановлення залежностей на **Arch Linux**:
 
 ```shell
-sudo pacman -S git clang
+sudo pacman -S git clang readline liburing libidn2
 ```
 
 ## Будування
@@ -58,4 +58,4 @@ sudo cp ./out/мавка /usr/local/bin
 
 ---
 
-_Написав [Давид](https://кдб.укр). Опубліковано 28.02.2025. Оновлено 27.04.2025_
+_Написав [Давид](https://кдб.укр). Опубліковано 28.02.2025. Оновлено 27.05.2025_
